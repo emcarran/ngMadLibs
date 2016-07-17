@@ -1,101 +1,99 @@
-        /*css styles go here*/
+body {
+    font-family: cursive;
+    font-size: 20px;
+}
 
-        body {
-            font-family: cursive;
-            font-size: 20px;
-        }
+.container {
+    border: solid;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
 
-        .container {
-            border: solid;
-            margin-top: 2rem;
-            margin-bottom: 0px;
-            margin-right: 10rem;
-            margin-left: 10rem;
-        }
+h1 {
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
 
-        h1 {
-            font-size: 4rem;
-            margin-top: 0px;
-            margin-bottom: 0px
-        }
+.container-header {
+    border: solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-        .container-header {
-            border: solid;
-            padding-left: 30px;
-            padding-right: 30px;
-        }
+.header-column {
+    display: inline-block;
+    vertical-align: top;
+}
 
-        .header-column {
-            display: inline-block;
-            vertical-align: top;
-        }
+.smiley {
+    width: 30%;
+    border-right: solid;
+    text-align: center;
+}
 
-        .smiley {
-            width: 30%;
-            border-right: solid;
-            text-align: center;
-        }
+.logo {
+    width: 69%;
+    text-align: center;
+}
 
-        .logo {
-            width: 69%;
-            text-align: center;
-        }
+.logo img {
+    width: 50%
+}
 
-        .logo img {
-            width: 50%
-        }
+#madInput {
+    text-align: center;
+}
 
-        #madInput {
-            text-align: center;
-        }
+#madInput p {
+    text-align: center;
+    font-size: 1.5rem;
+}
 
-        #madInput p {
-            text-align: center;
-            font-size: 1.5rem;
-        }
+.column {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
 
-        .column {
-            display: inline-block;
-            width: 32%;
-            text-align: center;
-        }
+.userInput {
+    border-bottom: solid;
+}
 
-        .userInput {
-            border-bottom: solid;
-        }
+.generateButton {
+    width: 100%;
+    text-align: right;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-        .generateButton {
-            width: 100%;
-            text-align: right;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            margin: 0;
-            box-sizing: border-box;
-        }
+input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
 
-        input {
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            font-size: 1rem;
-        }
+.errorMsg .ng-scope {
+    color: darkorange;
+    font-size: 1rem;
+    background-color: #eee;
+    padding: 3px;
+    padding-left: 10px;
+}
 
-        .errorMsg {
-            color: darkorange;
-            font-size: 1rem;
-            background-color: #eee;
-            padding: 3px;
-            padding-left: 10px;
-        }
+.textArea {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.4rem;
+}
 
-        .textArea {
-            padding-left: 1rem;
-            padding-right: 1rem;
-            font-size: 1.4rem;
-        }
-
-        footer {
-            text-align: center;
-            font-size: 1rem;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
+footer {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
