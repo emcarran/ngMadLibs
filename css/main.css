@@ -9,6 +9,7 @@ body {
     margin-bottom: 0px;
     margin-right: 10rem;
     margin-left: 10rem;
+    padding-bottom: 2rem;
 }
 
 h1 {
@@ -43,6 +44,11 @@ h1 {
     width: 50%
 }
 
+label.radio-inline {
+    margin-top;
+    0.5re;
+}
+
 #madInput {
     text-align: center;
 }
@@ -60,15 +66,16 @@ h1 {
 
 .userInput {
     border-bottom: solid;
+    padding-bottom: 2rem;
 }
 
 .generateButton {
     width: 100%;
-    text-align: right;
     padding-left: 2rem;
     padding-right: 2rem;
     margin: 0;
     box-sizing: border-box;
+    color: orange;
 }
 
 input {
@@ -89,6 +96,26 @@ input {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1.4rem;
+}
+
+.standout {
+    font-weight: bold;
+    color: darkorange;
+    font-style: italic;
+}
+
+.resetRow {
+    float: none;
+    margin-right: 2rem;
+}
+
+.btnReset {
+    width: 20%;
+    margin-right: 15rem;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
 }
 
 footer {
